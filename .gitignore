@@ -1,0 +1,40 @@
+# Ignore les dossiers de build / debug
+Debug/
+build/
+
+# Fichiers temporaires et de configuration IDE
+*.launch
+*.log
+*.swp
+*.tmp
+*.bak
+*.user
+*.mxproject
+.settings/
+
+# Fichiers spécifiques STM32CubeIDE
+*.dep
+*.d
+*.lst
+*.map
+*.bin
+*.elf
+*.hex
+*.axf
+
+# Dossiers générés par l’IDE
+*.cproject
+*.project
+
+# Fichiers d’indexation de l’IDE (Eclipse)
+.metadata/
+.recommenders/
+
+# Autres fichiers temporaires
+*.stackdump
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
